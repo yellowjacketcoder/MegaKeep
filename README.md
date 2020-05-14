@@ -15,8 +15,10 @@ You must have MEGAcmd installed and running on your machine. You can download th
 
 Create a text file (.txt) of all your mega accounts and passwords in a `user:pass` format with one account per line. Then locate that file and run the program.
 
-This fork also be scripted with the command line! 
+This fork also be scripted with the command line!
+
 --cli will auto-click the run button and run whatever file is already loaded.
+
 --txtFile "C:\path\to\txtfile.txt" will load the text file into the program.
 
 ## Contributing
