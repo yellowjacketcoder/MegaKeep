@@ -148,6 +148,13 @@ namespace MegaKeep
 			foreach (var line in lines)
 			{
 				var info = line.Split(':');
+				//line check
+				if (info.Length != 2)
+				{
+					//log error and skip if colon not present
+					Log("Colon (:) separator not found. Error: " + line);
+					continue;
+				}
 				var user = info[0];
 				var pass = info[1];
 
